@@ -1,0 +1,221 @@
+#navbar {
+    display: flex;
+    margin: 0px auto; 
+    background-color: rgb(3, 43, 80);
+    height: 100%;
+    width: 120%;
+    
+}
+#navbar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'PT Serif', serif;
+    margin-top: 0px;
+}
+#navbar li a {
+    text-decoration: none;
+    
+    padding: 3px 20px;
+    color: white;
+    display: block;
+    border-radius: 20px;
+   
+}
+.topnav .search-container {
+    float: right;
+    margin-top: 10px;
+  }
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  .topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+#navbar ul {
+display: flex;
+}
+#navbar li a:hover {
+    color:rgb(0, 17, 255);
+}
+body {
+   color: rgb(0, 0, 0);
+background-image: url('./images/bg2.jpg');
+font-size: 25px;
+margin-top: 0px;
+   
+}
+#welcome-section{
+    background-image: url('./images/back.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 100vh;
+    position: relative;
+}
+
+#introduction .row .column img {
+    width: 30%;
+    height: 500px;
+}
+.introduction .column p{
+    font-size: 2.5rem;
+    float: center;
+    width: 50px;
+    height: 80%;
+    
+    font-size: 1.5rem;
+}
+
+.education .column p{
+   font-size: 1.5rem;
+   float: right;
+    text-align: justify;
+    width: 50%;
+}
+#education .row .column img {
+    width: 30%;
+    height: 500px;
+}
+
+.history .column p{
+    font-size: 1.5rem;
+    float: right;
+     text-align: justify;
+     width: 60%;
+ }
+ #history .row .column img {
+    width: 30%;
+    height: 500px;
+}
+ .about .column p{
+    font-size: 1.5rem;
+    float: right;
+     text-align: justify;
+     width: 60%;
+ }
+ #about .row .column img {
+    width: 30%;
+    height: 500px;
+}
+ .relationship .column p{
+    font-size: 1.5rem;
+    float: right;
+     text-align: justify;
+     width: 60%;
+ }
+ #relationship .row .column img {
+    width: 30%;
+    height: 500px;
+}
+ .achivement .column p{
+    font-size: 1.5rem;
+    float: right;
+     text-align: justify;
+     width: 60%;
+ }
+ #achivement.row .column img {
+    width: 30%;
+    height: 500px;
+}
+.social-media {
+color: white;
+width: 20px;
+height: 30px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+padding: 30px;
+margin:10px;
+size: 1.0rem;
+}
+.social-media i {
+    padding: 10px;
+   margin-top: -7px;
+   margin-left: 10px;
+   padding-left: 0.1cm;  
+} 
+#search i{
+    float: right;
+    margin-top: -100px;
+    margin-right:15px;
+    color: white;
+}
+
+section h2 {
+  text-align: center;
+  color: black;
+  margin-top: 60px;
+  font-family: 'Libre Baskerville', serif;
+  margin-left: 70px;
+}
+
+h4 {
+    color: black;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+li {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#videowrapper {
+    padding: 70px;
+    background-color: #2787c7;
+   
+}
+#footer {
+    font-family: 'Permanent Marker', cursive;
+    text-align: right;
+    font-size: 30px;
+    background-color:white;
+    justify-content:flex-end;
+    color: black ;
+
+}
+#icon {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    float: center;
+    margin-left: 20px; 
+    justify-content: end;  
+}
+h6 {
+    font-size: 30px;
+    background-color: skyblue;
+    text-align: left;
+    margin-top: 10%;
+    
+}
+
+#dropdown {
+    border: 14px white;
+    float: right;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(235, 220, 220);
+    margin-bottom: 70px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0); 
+  } 
